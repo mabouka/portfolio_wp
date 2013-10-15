@@ -1,0 +1,269 @@
+/*!
+ 
+Theme Name: Maxime Lefèbvre Portfolio
+Theme URI: http://maxime-lefebvre.be
+Description: Le thème de mon portfolio
+Author: Maxime Lefèbvre 
+Author URI: http://maxime-lefebvre.be
+Version: 1.0
+Tags: light, minimal
+
+License:
+License URI:
+
+General comments (optional).
+
+*/
+
+
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+
+
+@import "normalize";
+@import "hbpBaseStyles";
+
+@import "compass/layout";
+
+@import "browseHappy";
+
+
+@include sticky-footer(3em);
+
+img {
+    max-width: 100%;
+	height: auto;
+}
+
+body{
+	font-family: "proxima-nova", sans-serif;
+	background-color: #f1f1f1;
+	padding-top: 4.3125em;
+	
+}
+	
+	
+
+.wrapper{
+	padding: 0 2em;
+	margin: 0 auto;
+	max-width: 61.125em;
+}
+
+
+header{
+	background-color: #f2f2f2;
+	z-index: 999;
+
+	box-shadow: 0 0 7px #555;
+	position: fixed;
+	width: 100%;
+	position: fixed;
+  	top: 0;
+ 	right: 0;
+
+ 	
+	a{
+		display: block;
+		line-height: 1;
+		float:left;
+		text-decoration: none;
+	}
+	
+	h1{
+		text-transform:uppercase;
+		letter-spacing: +2px;
+		padding: 1.625em 0;
+		margin: 0;
+		color: #555;
+		font-size: 1em;
+	}
+
+	:after{
+		display: block;
+		content:"";
+		clear: both;
+		}
+
+}
+nav{
+		
+		
+	float: right;
+		
+		ul{
+			margin: 0;
+			padding: 0;
+		}
+		li{
+			float:left;
+			list-style:none;
+			a{
+				letter-spacing: +2px;
+				
+
+
+				display: block;
+				color: #7E9E6F;
+				text-decoration: none;
+				text-transform:uppercase;
+				font-weight: 400;
+				font-size: 1em;
+				
+				padding: 1.25em 1em 1em ;
+				span{
+					
+					text-align: left;
+					padding:0.4em;
+					display:block;
+				}
+				&:hover span{
+
+					outline:#7E9E6F solid 2px;
+					
+				}
+
+
+		
+			}
+
+			&:last-child a{
+				padding-right: 0;
+			}
+		}	
+	
+	
+}
+
+#slide{
+	background-image: url(img/slide2.jpg);
+	background-size: cover;
+	height: 400px;
+}
+#presentation{
+
+
+	padding: 4em 0;
+	text-align: center;
+	position: relative;
+	p{
+		margin: 0 auto;
+		width: 80%;
+	}
+
+}
+
+#works{
+	padding: 4em 0;
+	
+
+
+
+	.fig4, fig4, fig8{margin-right: 0; }
+
+	a{
+		margin-right: 2.564102564%;
+		margin-bottom: 2.564102564%;
+		width : 23.076923076%;
+		float: left;
+		box-shadow: 0 0 7px rgba(85,85,85, 0.5);
+		text-decoration: none;
+		text-transform: none;
+	}
+
+
+
+	figure{
+		background-color: #FFF;
+		
+		
+	
+	
+	}
+
+	figcaption{
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+
+
+	:after{
+		display: block;
+		content:"";
+		clear: both;
+	}
+
+	
+}
+#news{
+	background-color:#787E85;
+	padding: 4em 0;
+	h2{
+
+	}
+}
+#social{
+	padding: 4em 0;
+		background-color: #363B48;
+
+
+	p{
+		font-size: 1.5em;
+		color: #eee;
+	}
+	ul{
+		float: right;
+	}
+
+	
+	:after{
+		display: block;
+		content:"";
+		clear: both;
+		}
+	}
+
+footer{
+	
+
+		
+		
+	ul{
+			
+		padding: 1em 0; 
+		li{
+				margin-left: 2.564102564%;	
+				float:left;
+				display:block;
+				width: 31.623931623%;
+				text-align: center;
+				text-transform: uppercase;
+				color: #555;
+			}
+			:first-child{
+			margin-left: 0;
+			text-align: left;
+			}
+
+			:last-child{
+			margin-left: 0;
+			text-align: right;
+			}
+
+
+		}:after{
+		display: block;
+		content:"";
+		clear: both;
+		}
+		
+
+}
+
+@import "mediaqueries";
+
+

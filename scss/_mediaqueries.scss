@@ -1,0 +1,40 @@
+@media only screen and (min-width: 1000px) {
+
+
+}
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    /* Style adjustments for viewports that meet the condition */
+
+	#works{
+	.fig4, .fig4, .fig8{margin-right: 2.564102564%; }
+	.fig3, .fig6, .fig9{margin-right: 0;}
+
+	a{width : 30.357142857%;}
+    }
+
+}
+
+@media only screen and (max-width: 700px) and (min-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+
+	#works{
+	.fig4, .fig .fig8{margin-right: 2.564102564%; }
+	.fig2, .fig4, .fig6, .fig8{margin-right: 0;}
+
+	a{width : 47.023809523%;}
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    /* Style adjustments for viewports that meet the condition */
+
+	#works{
+	
+
+	a{width : 91.071429%;
+		margin-right: 0;
+	}
+    }
+
+}
