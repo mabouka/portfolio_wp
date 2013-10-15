@@ -2,6 +2,18 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8326",
   "files" : {
+    "\/scss\/_normalize.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_normalize.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/_normalize.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/404.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -23,6 +35,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/geometry.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -34,15 +55,6 @@
       "initialSize" : 3354,
       "fileType" : 8192
     },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/scss\/page-accueil.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -51,18 +63,6 @@
       "inputAbbreviatedPath" : "\/scss\/page-accueil.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/scss\/_normalize.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_normalize.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/_normalize.css",
-      "fileType" : 4,
-      "debugStyle" : 0
     },
     "\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
@@ -95,6 +95,17 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/img\/shattered_@2X.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/shattered_@2X.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/shattered_@2X.png",
+      "initialSize" : 190781,
+      "fileType" : 8192
+    },
     "\/scss\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -106,17 +117,6 @@
       "outputAbbreviatedPath" : "\/ie.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/shattered_@2X.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/shattered_@2X.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/shattered_@2X.png",
-      "initialSize" : 190781,
-      "fileType" : 8192
     },
     "\/page-portfolio.php" : {
       "ignoreWasSetByUser" : 0,
@@ -363,6 +363,15 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/img\/dewinter.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -373,15 +382,6 @@
       "outputAbbreviatedPath" : "\/img\/dewinter.png",
       "initialSize" : 10354,
       "fileType" : 8192
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     }
   },
   "manualImportLinks" : [
