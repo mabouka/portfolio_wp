@@ -25,9 +25,7 @@ General comments (optional).
 
 @import "normalize";
 @import "hbpBaseStyles";
-
 @import "compass/layout";
-
 @import "browseHappy";
 
 
@@ -103,9 +101,6 @@ nav{
 			list-style:none;
 			a{
 				letter-spacing: +2px;
-				
-
-
 				display: block;
 				color: #7E9E6F;
 				text-decoration: none;
@@ -113,7 +108,7 @@ nav{
 				font-weight: 400;
 				font-size: 1em;
 				
-				padding: 1.25em 1em 1em ;
+				padding: 1.625em 1em ;
 				span{
 					
 					text-align: left;
@@ -165,9 +160,9 @@ nav{
 	.fig4, fig4, fig8{margin-right: 0; }
 
 	a{
-		margin-right: 2.564102564%;
-		margin-bottom: 2.564102564%;
-		width : 23.076923076%;
+		margin-right: 3.067484662%;  // 30 978
+		margin-bottom: 3.067484662%; // 30 978
+		width : 22.6993865036%;
 		float: left;
 		box-shadow: 0 0 7px rgba(85,85,85, 0.5);
 		text-decoration: none;
@@ -179,7 +174,9 @@ nav{
 	figure{
 		background-color: #FFF;
 		
-		
+		img{
+			width: 100%;
+		}
 	
 	
 	}
@@ -206,26 +203,7 @@ nav{
 
 	}
 }
-#social{
-	padding: 4em 0;
-		background-color: #363B48;
 
-
-	p{
-		font-size: 1.5em;
-		color: #eee;
-	}
-	ul{
-		float: right;
-	}
-
-	
-	:after{
-		display: block;
-		content:"";
-		clear: both;
-		}
-	}
 
 footer{
 	

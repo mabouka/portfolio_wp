@@ -16,8 +16,8 @@ function portfolio_setup(){
 
 
 		if (function_exists('add_image_size')){
-			add_image_size('accueil_travaux', 222,400, false);
-			add_image_size('grande', 544,1500, false);
+			add_image_size('accueil_travaux', 500,500, false);
+			add_image_size('slide', 2000,400, false);
 			add_image_size('blog', 544, 1000, false);
 			
 		}
@@ -48,6 +48,27 @@ function create_post_type() {
 		'public' => true,
 		'has_archive' => true,
 		'supports' => array('title', 'editor','excerpt', 'thumbnail')
+		)
+	);
+	register_post_type( 'social',
+		array(
+			'labels' => array(
+				'name'               => 'Réseaux sociaux',
+			    'singular_name'      => 'Réseau social',
+			    'add_new'            => 'Ajouter',
+			    'add_new_item'       => 'Ajouter un nouveau réseau social',
+			    'edit_item'          => 'Modifier un réseau social',
+			    'new_item'           => 'Nouveau réseau social',
+			    'all_items'          => 'Tous les réseaux sociaux',
+			    'view_item'          => 'Voir le réseau social',
+			    'search_items'       => 'Chercher les réseaux sociaux',
+			    'not_found'          => 'Pas de réseaux sociaux trouvés',
+			    'not_found_in_trash' => 'Pas de réseaux sociaux dans la corbeille',
+			    'menu_name'          => 'Réseaux sociaux'
+			),
+		'public' => true,
+		'has_archive' => true,
+		'supports' => array('title','thumbnail')
 		)
 	);
 }
