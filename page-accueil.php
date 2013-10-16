@@ -93,10 +93,37 @@
         <footer id="footer">
             
 
-           
+                <?php 
+                    $loop = new WP_Query( array( 'post_type' => 'social', 'posts_per_page' => 4 ) );
+                     
+                    if( $loop->have_posts() ): ?>
+
+                    <?php 
+                    while ( $loop->have_posts() ) : $loop->the_post();
+                    $idg ++;
+                    ?>
+
+    
+                       
+                        <a href="<?php the_field('url');  ?>" >
+                        <?php 
+
+                            //var_dump(get_field( "url" ) );
+                            $nomduresau = get_field( "reseaux_sociaux" )[0];
+                           echo(get_field_object('reseaux_sociaux')['choices'][$nomduresau]);
+                            
+                            
+                        ?>
+
+                        </a>
+                         
+                        
+                    <?php endwhile; ?>
+                     
+                    <?php endif; ?>
                 <div class="wrapper">
 
-                    <ul itemref="contact" itemscope  itemtype="http://schema.org/Person">
+                    <ul  class="social"itemref="contact" itemscope  itemtype="http://schema.org/Person">
                         <li><a href="https://www.facebook.com/maximelefebvreweb">Facebook</a></li>
                         <li><a href="#">Twitter</a></li>
                         <li><a itemprop="url" href="be.linkedin.com/in/maximelefebvre/">LinkedIn</a></li>

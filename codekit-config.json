@@ -14,27 +14,24 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/style.scss" : {
+    "\/404.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/style.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/style.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/404.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/img\/geometry.png" : {
+    "\/img\/cassebrique.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/geometry.png",
+      "inputAbbreviatedPath" : "\/img\/cassebrique.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/geometry.png",
-      "initialSize" : 3354,
+      "outputAbbreviatedPath" : "\/img\/cassebrique.png",
+      "initialSize" : 5040,
       "fileType" : 8192
     },
     "\/functions.php" : {
@@ -55,14 +52,28 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/index.php" : {
+    "\/img\/geometry.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/img\/geometry.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/geometry.png",
+      "initialSize" : 3354,
+      "fileType" : 8192
+    },
+    "\/scss\/style.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/style.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
@@ -95,6 +106,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/page-portfolio.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page-portfolio.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -117,15 +137,6 @@
       "outputAbbreviatedPath" : "\/img\/shattered_@2X.png",
       "initialSize" : 190781,
       "fileType" : 8192
-    },
-    "\/page-portfolio.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-portfolio.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/style.css" : {
       "ignoreWasSetByUser" : 0,
@@ -190,17 +201,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/img\/renova.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/renova.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/renova.png",
-      "initialSize" : 5778,
-      "fileType" : 8192
-    },
     "\/js\/main-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -211,6 +211,17 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/main-ck-ck.js",
       "fileType" : 64
+    },
+    "\/img\/renova.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/renova.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/renova.png",
+      "initialSize" : 5778,
+      "fileType" : 8192
     },
     "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
@@ -329,15 +340,15 @@
       "initialSize" : 81435,
       "fileType" : 8192
     },
-    "\/img\/cassebrique.png" : {
+    "\/img\/ico.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/cassebrique.png",
+      "inputAbbreviatedPath" : "\/img\/ico.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/cassebrique.png",
-      "initialSize" : 5040,
+      "outputAbbreviatedPath" : "\/img\/ico.png",
+      "initialSize" : 5577,
       "fileType" : 8192
     },
     "\/apple-touch-icon-precomposed.png" : {
@@ -374,12 +385,12 @@
       "initialSize" : 10354,
       "fileType" : 8192
     },
-    "\/404.html" : {
+    "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.html",
+      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     }
