@@ -74,15 +74,6 @@ function create_post_type() {
 }
 
 
-/*
-function char_excerpt( $content ) {
-	$content ='toto';
-
-	return $content;
-}
-add_filter( 'the_excerpt ', 'char_excerpt' );
-
-*/
 
 function wp_trim_all_excerpt($text) { // Creates an excerpt if needed; and shortens the manual excerpt as well
 global $post;

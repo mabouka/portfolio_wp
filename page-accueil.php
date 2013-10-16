@@ -91,13 +91,17 @@
 
 
         <footer id="footer">
+            <div class="wrapper">
+            
             
 
-                <?php 
+                                <?php 
                     $loop = new WP_Query( array( 'post_type' => 'social', 'posts_per_page' => 4 ) );
                      
                     if( $loop->have_posts() ): ?>
+                    
 
+                   <ul  id="social" class="social" itemref="contact"  itemscope  itemtype="http://schema.org/Person"> 
                     <?php 
                     while ( $loop->have_posts() ) : $loop->the_post();
                     $idg ++;
@@ -105,35 +109,25 @@
 
     
                        
-                        <a href="<?php the_field('url');  ?>" >
-                        <?php 
+                        <li><a href="<?php the_field('url');  ?>" itemprop="url" class="ir <?php the_field('reseaux_sociaux');  ?>" ><?php
+                        
 
                             //var_dump(get_field( "url" ) );
                             $nomduresau = get_field( "reseaux_sociaux" )[0];
                            echo(get_field_object('reseaux_sociaux')['choices'][$nomduresau]);
                             
                             
-                        ?>
-
-                        </a>
+                        ?></a></li>
                          
                         
                     <?php endwhile; ?>
-                     
+                     </ul>
                     <?php endif; ?>
-                <div class="wrapper">
-
-                    <ul  class="social"itemref="contact" itemscope  itemtype="http://schema.org/Person">
-                        <li><a href="https://www.facebook.com/maximelefebvreweb">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a itemprop="url" href="be.linkedin.com/in/maximelefebvre/">LinkedIn</a></li>
-                        <li><a href="#">Dribble </a></li>
-                    </ul>
-                    
-                    
+                
 
 
-                    <div id="contact" class="vcard" itemscope itemtype="http://schema.org/Person">
+
+                    <div id="contact" class="vcard">
                          <span class="fn" itemprop="name">Maxime Lefèbvre</span>
                          
                          <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -142,12 +136,14 @@
                             <span class="locality"    itemprop="addressLocality">Liège</span>
                             <span class="country"     itemprop="addressCountry">Belgique</span>
                          </div>
+                         <span class= "" itemprop="telephone">00(32)499 47 10 95</span>
                          <a class="email" itemprop="email" href="mailto:contact@maxime-lefebvre.be">contact@maxime-lefebvre.be</a>
+                         <a class="url visuallyhidden " itemprop="url" href="http://www.maxime-lefebvre.be">Mon site web</a>   
                         
                     </div>
 
-
             
+
 
            
         </footer>
