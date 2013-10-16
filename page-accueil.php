@@ -11,11 +11,11 @@
                     </nav>
                 </div>
             </header>    
-
+            <div class="wrapper">
             <?php the_post_thumbnail('slide'); ?>    
-           
+            </div>
 
-
+            <!--
 
             <section id="presentation">
                 <div class="wrapper">
@@ -24,7 +24,7 @@
                     <p>Je suis web designer et et je suis étudiant en infographie à la Haute École de la Province de Liège. Si vous désirez acquérir votre propre site web, vous êtes à la bonne adresse. Je maitrise différentes technologies telles que PHP, Javascript HTML 5 et CSS. L’ergonomie est aussi au centre de mon travail, le confort des utilisateurs est une de mes priorités. Je m'intéresses aussi de près à la photographie, la typographie et le graphisme.</p>
                 </div>
             </section>
-
+            -->
 
                 
                 <?php 
@@ -44,61 +44,49 @@
 
     
                        
-                        <a href="<?php the_permalink(); ?>" class="<?php echo 'fig'.$idg;?>">
-                            <figure >
-                                <?php the_post_thumbnail('accueil_travaux'); ?>
-                                <figcaption><?php the_title(); ?></figcaption>
-                            </figure>
-                        </a>
+                        
+                            <div class="<?php echo 'fig'.$idg;?> work">
+                                <a href="<?php the_permalink(); ?>" ><?php the_post_thumbnail('accueil_travaux'); ?></a>
+                                
+                                <h3><?php the_title(); ?></h3>
+                                <p><?php the_excerpt(); ?></p>
+                                <a href="<?php the_permalink(); ?>" class="button" >Voir le projet</a>
+                            </div>
+                        
 
                         
                     <?php endwhile; ?>
                      </section>
                     <?php endif; ?>
-
-
-					
-
-
-
-<!--
-                    <a href="#" class="fig1">
-                    <figure >
-                        <img src="img/renova.png" alt="Logotype de RGBA" />
-                        <figcaption>Renova 9</figcaption>
-                    </figure>
-                    </a>
-
--->   
-
-                    
-
-                    
+        
                     
            
+
+           <?php 
+
+           $loop = new WP_Query( array(  'posts_per_page' => 4 ) );
+           if( $loop->have_posts() ): ?>
             <section id="news">
                 <div class="wrapper">
                 <h2>News</h2>
                    	<?php 
-					$loop = new WP_Query( array(  'posts_per_page' => 4 ) );
+					
 					while ( $loop->have_posts() ) : $loop->the_post();
 					 
 					 ?>
 
-					  	<a href="<?php the_permalink(); ?>" class="fig1">
-                    	<figure >
+					
+                    
+                    <article>
+                        <a href="<?php the_permalink(); ?>" class="fig1"><h3><?php the_title(); ?></h3></a>
                         <?php the_post_thumbnail('accueil_travaux'); ?>
-                        <figcaption><?php the_title(); ?></figcaption>
-                    </figure>
-                    </a>
+                        <p><?php the_excerpt(); ?></p>
+                        
+                    </article>
 
-					<?php
-
-					endwhile;
-
-					?>
+					<?php endwhile;?>
             </section>
-        
+            <?php endif; ?>
 
 
 
@@ -108,17 +96,17 @@
            
                 <div class="wrapper">
 
-                    <ul>
+                    <ul itemref="contact" itemscope  itemtype="http://schema.org/Person">
                         <li><a href="https://www.facebook.com/maximelefebvreweb">Facebook</a></li>
                         <li><a href="#">Twitter</a></li>
-                        <li><a href="be.linkedin.com/in/maximelefebvre/">LinkedIn</a></li>
+                        <li><a itemprop="url" href="be.linkedin.com/in/maximelefebvre/">LinkedIn</a></li>
                         <li><a href="#">Dribble </a></li>
                     </ul>
                     
                     
 
 
-                    <div id="hcard-Maxime-Lefèbvre" class="vcard" itemtype="http://schema.org/Person">
+                    <div id="contact" class="vcard" itemscope itemtype="http://schema.org/Person">
                          <span class="fn" itemprop="name">Maxime Lefèbvre</span>
                          
                          <div class="adr" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">

@@ -476,47 +476,45 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
-/* line 10, ../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-html, body {
-  height: 100%; }
+/* line 35, scss/style.scss */
+h2 {
+  text-transform: uppercase;
+  font-size: 1.25em;
+  text-align: center;
+  line-height: 1; }
+  /* line 40, scss/style.scss */
+  h2:before, h2:after {
+    content: "";
+    height: 2px;
+    width: 30px;
+    background: #555;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.5em; }
 
-/* line 12, ../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-#root {
-  clear: both;
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin-bottom: -3em; }
-  /* line 18, ../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-  #root #root_footer {
-    height: 3em; }
-
-/* line 20, ../../../../../../CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
-#footer {
-  clear: both;
-  position: relative;
-  height: 3em; }
-
-/* line 34, scss/style.scss */
+/* line 50, scss/style.scss */
 img {
   max-width: 100%;
   height: auto; }
 
-/* line 39, scss/style.scss */
+/* line 55, scss/style.scss */
 body {
-  font-family: "proxima-nova", sans-serif;
-  background-color: #f1f1f1;
+  font-family: "source-sans-pro", sans-serif;
   padding-top: 4.3125em; }
 
-/* line 48, scss/style.scss */
+/* line 64, scss/style.scss */
+#root > img {
+  width: 100%; }
+
+/* line 67, scss/style.scss */
 .wrapper {
   padding: 0 2em;
   margin: 0 auto;
   max-width: 61.125em; }
 
-/* line 55, scss/style.scss */
+/* line 74, scss/style.scss */
 header {
-  background-color: #f2f2f2;
+  background-color: #232323;
   z-index: 999;
   box-shadow: 0 0 7px #555;
   position: fixed;
@@ -524,13 +522,13 @@ header {
   position: fixed;
   top: 0;
   right: 0; }
-  /* line 67, scss/style.scss */
+  /* line 86, scss/style.scss */
   header a {
     display: block;
     line-height: 1;
     float: left;
     text-decoration: none; }
-  /* line 74, scss/style.scss */
+  /* line 93, scss/style.scss */
   header h1 {
     text-transform: uppercase;
     letter-spacing: +2px;
@@ -538,24 +536,24 @@ header {
     margin: 0;
     color: #555;
     font-size: 1em; }
-  /* line 83, scss/style.scss */
+  /* line 102, scss/style.scss */
   header :after {
     display: block;
     content: "";
     clear: both; }
 
-/* line 90, scss/style.scss */
+/* line 109, scss/style.scss */
 nav {
   float: right; }
-  /* line 95, scss/style.scss */
+  /* line 114, scss/style.scss */
   nav ul {
     margin: 0;
     padding: 0; }
-  /* line 99, scss/style.scss */
+  /* line 118, scss/style.scss */
   nav li {
     float: left;
     list-style: none; }
-    /* line 102, scss/style.scss */
+    /* line 121, scss/style.scss */
     nav li a {
       letter-spacing: +2px;
       display: block;
@@ -565,96 +563,114 @@ nav {
       font-weight: 400;
       font-size: 1em;
       padding: 1.625em 1em; }
-      /* line 112, scss/style.scss */
-      nav li a span {
-        text-align: left;
-        padding: 0.4em;
-        display: block; }
-      /* line 118, scss/style.scss */
-      nav li a:hover span {
-        outline: #7E9E6F solid 2px; }
-    /* line 128, scss/style.scss */
+    /* line 142, scss/style.scss */
     nav li:last-child a {
       padding-right: 0; }
 
-/* line 136, scss/style.scss */
+/* line 150, scss/style.scss */
 #slide {
   background-image: url(img/slide2.jpg);
   background-size: cover;
   height: 400px; }
 
-/* line 141, scss/style.scss */
+/* line 155, scss/style.scss */
 #presentation {
   padding: 4em 0;
   text-align: center;
   position: relative; }
-  /* line 147, scss/style.scss */
+  /* line 161, scss/style.scss */
   #presentation p {
     margin: 0 auto;
     width: 80%; }
 
-/* line 154, scss/style.scss */
+/* line 168, scss/style.scss */
 #works {
-  padding: 4em 0; }
-  /* line 160, scss/style.scss */
-  #works .fig4, #works fig4, #works fig8 {
-    margin-right: 0; }
-  /* line 162, scss/style.scss */
-  #works a {
-    margin-right: 3.067484662%;
-    margin-bottom: 3.067484662%;
-    width: 22.6993865036%;
-    float: left;
-    box-shadow: 0 0 7px rgba(85, 85, 85, 0.5);
-    text-decoration: none;
-    text-transform: none; }
+  padding: 2em 0 2em 0; }
   /* line 174, scss/style.scss */
-  #works figure {
-    background-color: #FFF; }
-    /* line 177, scss/style.scss */
-    #works figure img {
-      width: 100%; }
-  /* line 184, scss/style.scss */
-  #works figcaption {
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase; }
-  /* line 191, scss/style.scss */
-  #works :after {
+  #works .fig4, #works .fig4, #works .fig8 {
+    margin-right: 0; }
+  /* line 182, scss/style.scss */
+  #works:after {
     display: block;
     content: "";
     clear: both; }
 
-/* line 199, scss/style.scss */
-#news {
-  background-color: #787E85;
-  padding: 4em 0; }
-
-/* line 213, scss/style.scss */
-footer ul {
-  padding: 1em 0; }
-  /* line 216, scss/style.scss */
-  footer ul li {
-    margin-left: 2.564102564%;
-    float: left;
-    display: block;
-    width: 31.623931623%;
+/* line 190, scss/style.scss */
+div.work {
+  margin-right: 3.067484662%;
+  margin-bottom: 3.067484662%;
+  width: 22.6993865036%;
+  float: left;
+  text-decoration: none;
+  text-transform: none; }
+  /* line 198, scss/style.scss */
+  div.work img {
+    width: 100%;
+    border: 1px solid #AAA; }
+  /* line 203, scss/style.scss */
+  div.work h3 {
+    font-size: 1em;
     text-align: center;
     text-transform: uppercase;
+    border-bottom: 3px solid #000;
+    padding: 0.75em;
+    margin: 0; }
+  /* line 214, scss/style.scss */
+  div.work p {
+    font-size: 0.8em;
     color: #555; }
-  /* line 225, scss/style.scss */
-  footer ul :first-child {
-    margin-left: 0;
-    text-align: left; }
-  /* line 230, scss/style.scss */
-  footer ul :last-child {
-    margin-left: 0;
-    text-align: right; }
-/* line 236, scss/style.scss */
-footer :after {
-  display: block;
-  content: "";
-  clear: both; }
+  /* line 219, scss/style.scss */
+  div.work a.button {
+    background-color: #232323;
+    line-height: 1;
+    padding: 0.75em;
+    color: #7E9E6F;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s; }
+    /* line 232, scss/style.scss */
+    div.work a.button:hover {
+      background-color: #aaa;
+      color: #000; }
+
+/* line 240, scss/style.scss */
+#news {
+  background-color: #EEE;
+  padding: 2em 0; }
+  /* line 243, scss/style.scss */
+  #news a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #000; }
+  /* line 252, scss/style.scss */
+  #news article {
+    width: 31.288343558%;
+    margin-right: 3.067484662%;
+    float: left; }
+  /* line 257, scss/style.scss */
+  #news:after {
+    display: block;
+    content: "";
+    clear: left; }
+
+/* line 265, scss/style.scss */
+footer {
+  background-color: #232323; }
+  /* line 272, scss/style.scss */
+  footer:after {
+    display: block;
+    content: "";
+    clear: both; }
 
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
   /* Style adjustments for viewports that meet the condition */
@@ -665,7 +681,7 @@ footer :after {
   #works .fig3, #works .fig6, #works .fig9 {
     margin-right: 0; }
   /* line 12, scss/_mediaqueries.scss */
-  #works a {
+  #works .work {
     width: 31.288343558%; } }
 @media only screen and (max-width: 700px) and (min-width: 500px) {
   /* Style adjustments for viewports that meet the condition */
@@ -673,11 +689,11 @@ footer :after {
   #works .fig2, #works .fig4, #works .fig6, #works fig8 .fig10 {
     margin-right: 0; }
   /* line 24, scss/_mediaqueries.scss */
-  #works a {
+  #works .work {
     width: 48.466257668%; } }
 @media only screen and (max-width: 500px) {
   /* Style adjustments for viewports that meet the condition */
   /* line 35, scss/_mediaqueries.scss */
-  #works a {
+  #works .work {
     width: 100%;
     margin-right: 0; } }

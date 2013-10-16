@@ -14,15 +14,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/404.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/scss\/style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -35,15 +26,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/img\/geometry.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -55,12 +37,30 @@
       "initialSize" : 3354,
       "fileType" : 8192
     },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/page-accueil.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/scss\/page-accueil.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -86,16 +86,14 @@
       "initialSize" : 10473,
       "fileType" : 8192
     },
-    "\/img\/shattered_@2X.png" : {
+    "\/template-contact.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/shattered_@2X.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/shattered_@2X.png",
-      "initialSize" : 190781,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/template-contact.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/scss\/ie.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -109,21 +107,23 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
+    "\/img\/shattered_@2X.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/img\/shattered_@2X.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/img\/shattered_@2X.png",
+      "initialSize" : 190781,
+      "fileType" : 8192
+    },
     "\/page-portfolio.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/page-portfolio.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/template-contact.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-contact.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -374,12 +374,12 @@
       "initialSize" : 10354,
       "fileType" : 8192
     },
-    "\/index.php" : {
+    "\/404.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
+      "inputAbbreviatedPath" : "\/404.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     }
